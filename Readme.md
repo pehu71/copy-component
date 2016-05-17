@@ -30,7 +30,7 @@ Taking a glance a the component you'll notice that it's that simple, that you ca
 
 #### Illustration
 ![copy-component](img/illustration.jpg)
-Format: ![Alt Text](url)
+
 The text copied to the clipboard by clicking the Copy icon will consist of the quote and its author separated by line break.
 
 #### Notes

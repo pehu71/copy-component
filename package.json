@@ -1,0 +1,25 @@
+{
+  "name": "copy-component",
+  "version": "1.0.0",
+  "description": "Simple Copy component for Angular2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pehu71/copy-component.git"
+  },
+  "keywords": [
+    "copy",
+    "clipboard",
+    "angular2",
+    "@angular"
+  ],
+  "author": "Petr -pehu- Humplik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pehu71/copy-component/issues"
+  },
+  "homepage": "https://github.com/pehu71/copy-component#readme"
+}

@@ -2,11 +2,7 @@ import {Component, Input} from '@angular/core';
 
 @Component({
     selector: 'cmp-copy',
-    template: `
-        <span class="{{cssClass}}" (click)="copy()" >
-            <button>Copy</button>
-        </span>
-        `
+    template: `<button class="{{cssClass}}" (click)="copy()">Copy</button>`
 })
 
 export class CopyComponent {

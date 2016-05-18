@@ -1,5 +1,5 @@
 import {Component, Input} from '@angular/core';
-import {MdIconRegistry, MdIcon} from '@angular2-material/icon'; // you don't need this line when not using @angular2-material MdIcon inside
+import {MdIconRegistry, MdIcon} from '@angular2-material/icon';
 
 @Component({
     selector: 'cmp-copy',

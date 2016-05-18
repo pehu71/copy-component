@@ -25,7 +25,7 @@ This is a snippet from `src/simple/example.html` (simple way with just standard 
 
             <p class="quote">{{box?.Text}}</p>
             <p class="author">{{box?.Author}}
-                <cmp-copy [text]="[box?.Text, box?.Author]" [cssClass]="'btn btn-primary'"></cmp-copy></h6>
+                <cmp-copy [text]="[box?.Text, box?.Author]" [cssClass]="'btn btn-primary'"></cmp-copy>
             </p>
 
         </div>

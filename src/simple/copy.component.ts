@@ -1,14 +1,10 @@
 import {Component, Input} from '@angular/core';
-import {MdIconRegistry, MdIcon} from '@angular2-material/icon'; // you don't need this line when not using @angular2-material MdIcon inside
 
 @Component({
     selector: 'cmp-copy',
-    providers: [MdIconRegistry],
-    directives: [MdIcon],
     template: `
         <span class="{{cssClass}}" (click)="copy()" >
-            <!--you can use any button, anchor or material icon like me-->
-            <md-icon class="md-24">content_copy</md-icon>
+            <button>Copy</button>
         </span>
         `
 })

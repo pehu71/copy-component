@@ -28,6 +28,15 @@ a multi-line text upon paste
 
 Taking a glance a the component you'll notice that it's that simple, that you can make anything that suites you better of it within a few minutes.
 
+#### Prerequisites
+I didn't want to put full-blown app here, since I consider this to be useless. The only dependency this directive needs is `@angular/core` (if you don't use `MdIcon` material directive).
+So to make this run, you just need to add the component file **copy.component.ts** to your project and reference it in your respective component. Then just set up your mark up - see **Configuration section**
+
+#### Two versions in this repo
+There are two versions available in this repository. 
+* subdirectory `src/simple` - the simplest possible version with just a button
+* subdirectory `src/with-material` - version using @angular2-material `MdIcon` component. For this you need to have `@angular2-material/icon` installed
+
 #### Illustration
 ![copy-component](img/illustration.jpg)
 
@@ -40,6 +49,6 @@ Testes in:
 * MSIE 11
 * Edge
 * Android
-    * Chrome
-    * FireFox
+  * Chrome
+  * FireFox
 

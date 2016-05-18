@@ -72,7 +72,7 @@ Taking a glance a the component you'll notice that it's that simple, that you ca
 
 #### Prerequisites
 I didn't want to put full-blown app here, since I consider this to be useless. The only dependency this directive needs is `@angular/core` (if you don't use `MdIcon` material directive).
-So to make this run, you just need to add the component file **copy.component.ts** to your project and reference it in your respective component. Then just set up your mark up - see **Configuration section**
+So to make this run, you just need to add the component file **copy.component.ts** to your project and reference it in your respective component. Then just set up your mark up - see _Configuration section_
 
 #### Two versions in this repo
 There are two versions available in this repository. 
